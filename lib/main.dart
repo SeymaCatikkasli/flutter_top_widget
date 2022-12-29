@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_top_widget/widgets/layout_builder.dart';
 import 'package:flutter_top_widget/widgets/limited_box.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const LimitedBoxWidget(),
+      home: const LayoutBuilderWidget(),
     );
   }
 }
