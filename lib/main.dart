@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_top_widget/widgets/linear_progress_indicator.dart';
+import 'package:flutter_top_widget/widgets/limited_box.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const LinearProgressWidget(),
+      home: const LimitedBoxWidget(),
     );
   }
 }
