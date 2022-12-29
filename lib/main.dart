@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_top_widget/widgets/visiblitty_widget.dart';
+import 'package:flutter_top_widget/widgets/linear_progress_indicator.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const VisibleWidget(),
+      home: const LinearProgressWidget(),
     );
   }
 }
