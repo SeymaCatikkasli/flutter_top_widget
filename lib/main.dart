@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_top_widget/widgets/interactive_viewer.dart';
-import 'package:flutter_top_widget/widgets/layout_builder.dart';
-import 'package:flutter_top_widget/widgets/limited_box.dart';
+import 'package:flutter_top_widget/widgets/input_chip.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const InteractiveViewerWidget(),
+      home: const InputChipWidget(),
     );
   }
 }
