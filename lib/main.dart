@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_top_widget/widgets/input_chip.dart';
+import 'package:flutter_top_widget/widgets/inkwell.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const InputChipWidget(),
+      home: const InkwellWidget(),
     );
   }
 }
