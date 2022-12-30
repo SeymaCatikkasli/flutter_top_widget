@@ -67,6 +67,8 @@ flutter:
   assets:
     - assets/camera.svg
     - assets/google.jpeg
+    - assets/aksiyon.jpeg
+    - assets/fantastik.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
