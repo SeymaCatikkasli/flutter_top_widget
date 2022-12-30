@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_top_widget/widgets/image.dart';
+import 'package:flutter_top_widget/widgets/ignore_pointer.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:  const ImageWidget(),
+      home:  const IgnorePointerWidget(),
     );
   }
 }
